@@ -5,5 +5,6 @@
     <xccdf:title xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:lang="en-US" override="true">Example Compliance Profile for UBI8 Container Images [Based on xccdf_org.ssgproject.content_profile_standard]</xccdf:title>
     <xccdf:description xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:lang="en-US" override="true">Example compliance profile that extends the Standard System Security Profile for Red Hat Enterprise Linux 8 that is applicable to UBI8 based container images.</xccdf:description>
     <xccdf:select idref="xccdf_org.ssgproject.content_rule_rpm_verify_permissions" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_rpm_verify_hashes" selected="false"/>
   </xccdf:Profile>
 </xccdf:Tailoring>
