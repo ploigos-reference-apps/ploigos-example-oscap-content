@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xccdf:Tailoring xmlns:xccdf="http://checklists.nist.gov/xccdf/1.2" id="xccdf_scap-workbench_tailoring_default">
-  <xccdf:benchmark href="Z:/Users/Ian/Downloads/rhel-8.ds.xml"/>
+  <xccdf:benchmark href="https://www.redhat.com/security/data/metrics/ds/v2/RHEL8/rhel-8.ds.xml.bz2"/>
   <xccdf:version time="2021-07-22T09:06:57">1</xccdf:version>
-  <xccdf:Profile id="xccdf_com.ploigos_profile_ploigos_reference_apps">
-    <xccdf:title xml:lang="en-US">(default) [CUSTOMIZED]</xccdf:title>
+  <xccdf:Profile id="xccdf_com.ploigos_profile_default_ploigos_reference_apps">
+    <xccdf:title xml:lang="en-US">Cutomized Default CVE Profile for RHEL 8</xccdf:title>
     <xccdf:description xml:lang="en-US">Profile used with https://github.com/ploigos-reference-apps to work around temporary CVEs that can't be remediated.</xccdf:description>
     <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20212717" selected="false"/>
   </xccdf:Profile>
