@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xccdf:Tailoring xmlns:xccdf="http://checklists.nist.gov/xccdf/1.2" id="xccdf_scap-workbench_tailoring_default">
+  <xccdf:benchmark href="https://atopathways.redhatgov.io/compliance-as-code/scap/ssg-rhel8-ds.xml"/>
+  <xccdf:version time="2021-07-22T09:06:57">1</xccdf:version>
+  <xccdf:Profile id="xccdf_com.ploigos_profile_standard_compliance_ploigos_reference_apps" extends="xccdf_org.ssgproject.content_profile_standard">
+    <xccdf:title xml:lang="en-US" override="true">Ploigos Reference Apps - Cutomized Standard Compliance Profile for RHEL 8</xccdf:title>
+    <xccdf:description xml:lang="en-US">Profile used with https://github.com/ploigos-reference-apps to work around Compliance issues that can't be remediated.</xccdf:description>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_rpm_verify_permissions" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_security_patches_up_to_date" selected="false"/>
+  </xccdf:Profile>
+</xccdf:Tailoring>
