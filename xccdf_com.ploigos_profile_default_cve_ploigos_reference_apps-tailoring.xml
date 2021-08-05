@@ -21,6 +21,7 @@
   <xccdf:Profile id="xccdf_com.ploigos_profile_default_cve_ploigos_reference_spring_boot_mvn_jkube">
     <xccdf:title xml:lang="en-US">Cutomized Default CVE Profile for RHEL 8</xccdf:title>
     <xccdf:description xml:lang="en-US">Profile used with https://github.com/ploigos-reference-apps/reference-spring-boot-mvn-jkube to work around temporary CVEs that can't be remediated.</xccdf:description>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20212717" selected="false"/>
     <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhea-def-20211580" selected="false"/>
     <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20211024" selected="false"/>
     <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20211206" selected="false"/>
