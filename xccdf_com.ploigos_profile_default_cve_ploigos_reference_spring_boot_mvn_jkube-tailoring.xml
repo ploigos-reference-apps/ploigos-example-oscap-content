@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xccdf:Tailoring xmlns:xccdf="http://checklists.nist.gov/xccdf/1.2" id="xccdf_scap-workbench_tailoring_default">
+  <xccdf:benchmark href="https://www.redhat.com/security/data/metrics/ds/v2/RHEL8/rhel-8.ds.xml.bz2"/>
+  <xccdf:version time="2021-08-05T15:00:00">1</xccdf:version>
+  <xccdf:Profile id="xccdf_com.ploigos_profile_default_cve_ploigos_reference_spring_boot_mvn_jkube">
+    <xccdf:title xml:lang="en-US">Cutomized Default CVE Profile for RHEL 8</xccdf:title>
+    <xccdf:description xml:lang="en-US">Profile used with https://github.com/ploigos-reference-apps/reference-spring-boot-mvn-jkube to work around temporary CVEs that can't be remediated.</xccdf:description>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhea-def-20211580" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20211024" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20211206" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20211307" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20211581" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20211585" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20211586" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20211593" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20211597" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20211609" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20211610" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20211611" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20211633" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20211675" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20211679" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20211702" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20211804" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20211853" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20212170" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20212569" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20212574" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20212575" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20212781" selected="false"/>
+  </xccdf:Profile>
+</xccdf:Tailoring>
