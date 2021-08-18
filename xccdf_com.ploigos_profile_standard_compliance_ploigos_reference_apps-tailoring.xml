@@ -7,5 +7,6 @@
     <xccdf:description xml:lang="en-US">Profile used with https://github.com/ploigos-reference-apps to work around Compliance issues that can't be remediated.</xccdf:description>
     <xccdf:select idref="xccdf_org.ssgproject.content_rule_rpm_verify_permissions" selected="false"/>
     <xccdf:select idref="xccdf_org.ssgproject.content_rule_security_patches_up_to_date" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_rpm_verify_hashes" selected="false"/>
   </xccdf:Profile>
 </xccdf:Tailoring>
