@@ -12,14 +12,14 @@
 
   <!-- reference-quarkus-mvn -->
   <xccdf:Profile id="xccdf_com.ploigos_profile_default_cve_ploigos_reference_quarkus_mvn">
-    <xccdf:title xml:lang="en-US">Cutomized Default CVE Profile for RHEL 8</xccdf:title>
+    <xccdf:title xml:lang="en-US">Cutomized Default CVE Profile for the ploigos-references/reference-quarkus-mvn project</xccdf:title>
     <xccdf:description xml:lang="en-US">Profile used with https://github.com/ploigos-reference-apps/reference-quarkus-mvn to work around temporary CVEs that can't be remediated.</xccdf:description>
     <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20212717" selected="false"/>
   </xccdf:Profile>
 
   <!-- reference-spring-boot-mvn-jkube -->
   <xccdf:Profile id="xccdf_com.ploigos_profile_default_cve_ploigos_reference_spring_boot_mvn_jkube">
-    <xccdf:title xml:lang="en-US">Cutomized Default CVE Profile for RHEL 8</xccdf:title>
+    <xccdf:title xml:lang="en-US">Cutomized Default CVE Profile for the ploigos-references/reference-spring-boot-mvn-jkube project</xccdf:title>
     <xccdf:description xml:lang="en-US">Profile used with https://github.com/ploigos-reference-apps/reference-spring-boot-mvn-jkube to work around temporary CVEs that can't be remediated.</xccdf:description>
     <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20212717" selected="false"/>
     <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhea-def-20211580" selected="false"/>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xccdf:Tailoring xmlns:xccdf="http://checklists.nist.gov/xccdf/1.2" id="xccdf_scap-workbench_tailoring_default">
   <xccdf:benchmark href="https://atopathways.redhatgov.io/compliance-as-code/scap/ssg-rhel8-ds.xml"/>
-  <xccdf:version time="2021-07-22T09:06:57">1</xccdf:version>
+  <xccdf:version time="2021-09-01T17:00:00">2</xccdf:version>
+
+  <!-- DEPRECATED -->
   <xccdf:Profile id="xccdf_com.ploigos_profile_standard_compliance_ploigos_reference_apps" extends="xccdf_org.ssgproject.content_profile_standard">
     <xccdf:title xml:lang="en-US" override="true">Ploigos Reference Apps - Cutomized Standard Compliance Profile for RHEL 8</xccdf:title>
     <xccdf:description xml:lang="en-US">Profile used with https://github.com/ploigos-reference-apps to work around Compliance issues that can't be remediated.</xccdf:description>
@@ -9,4 +11,58 @@
     <xccdf:select idref="xccdf_org.ssgproject.content_rule_security_patches_up_to_date" selected="false"/>
     <xccdf:select idref="xccdf_org.ssgproject.content_rule_rpm_verify_hashes" selected="false"/>
   </xccdf:Profile>
+
+  <!-- reference-quarkus-mvn -->
+  <xccdf:Profile id="xccdf_com.ploigos_profile_default_compliance_ploigos_reference_quarkus_mvn" extends="xccdf_org.ssgproject.content_profile_standard">
+    <xccdf:title xml:lang="en-US" override="true">Cutomized Standard Compliance Profile for the ploigos-references/reference-quarkus-mvn project</xccdf:title>
+    <xccdf:description xml:lang="en-US">Profile used with https://github.com/ploigos-reference-apps to work around Compliance issues that can't be remediated.</xccdf:description>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_rpm_verify_permissions" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_security_patches_up_to_date" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_rpm_verify_hashes" selected="false"/>
+  </xccdf:Profile>
+
+  <!-- reference-spring-boot-mvn-jkube -->
+  <xccdf:Profile id="xccdf_com.ploigos_profile_default_compliance_ploigos_reference_spring_boot_mvn_jkube" extends="xccdf_org.ssgproject.content_profile_standard">
+    <xccdf:title xml:lang="en-US" override="true">Cutomized Standard Compliance Profile for the ploigos-references/reference-spring-boot-mvn-jkube project</xccdf:title>
+    <xccdf:description xml:lang="en-US">Profile used with https://github.com/ploigos-reference-apps to work around Compliance issues that can't be remediated.</xccdf:description>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_rpm_verify_permissions" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_security_patches_up_to_date" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_rpm_verify_hashes" selected="false"/>
+
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_partition_for_var_log_audit" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_partition_for_var_log" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_no_empty_passwords" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_audit_rules_sysadmin_actions" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_audit_rules_media_export" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_audit_rules_networkconfig_modification" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_audit_rules_mac_modification" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_audit_rules_usergroup_modification" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_audit_rules_kernel_module_loading" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_audit_rules_unsuccessful_file_modification" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_audit_rules_file_deletion_events" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_audit_rules_privileged_commands" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_fchownat" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_setxattr" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_lremovexattr" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_fchmodat" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_chown" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_fchown" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_fremovexattr" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_chmod" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_lsetxattr" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_removexattr" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_lchown" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_fchmod" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_fsetxattr" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_audit_rules_time_adjtimex" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_audit_rules_time_clock_settime" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_audit_rules_time_watch_localtime" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_audit_rules_time_stime" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_audit_rules_time_settimeofday" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_package_rsyslog_installed" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_service_rsyslog_enabled" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_mount_option_dev_shm_nodev" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_mount_option_dev_shm_nosuid" selected="false"/>
+  </xccdf:Profile>
+
 </xccdf:Tailoring>
