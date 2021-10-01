@@ -46,5 +46,7 @@
     <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20212575" selected="false"/>
     <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20212781" selected="false"/>
     <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20213058" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20213576" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20213582" selected="false"/>
   </xccdf:Profile>
 </xccdf:Tailoring>
