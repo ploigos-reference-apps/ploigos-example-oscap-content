@@ -48,5 +48,36 @@
     <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20213058" selected="false"/>
     <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20213576" selected="false"/>
     <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20213582" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20213891" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20214057" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20214059" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20214060" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20214235" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20214241" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20214288" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20214326" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20214358" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20214373" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20214374" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20214381" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20214382" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20214385" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20214386" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20214387" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20214393" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20214396" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20214399" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20214408" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20214409" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20214424" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20214426" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20214451" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20214455" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20214464" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20214489" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20214510" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20214511" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20214513" selected="false"/>
+    <xccdf:select idref="xccdf_com.redhat.rhsa_rule_oval-com.redhat.rhsa-def-20214587" selected="false"/>
   </xccdf:Profile>
 </xccdf:Tailoring>
