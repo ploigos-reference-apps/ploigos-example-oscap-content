@@ -10,6 +10,11 @@
     <xccdf:select idref="xccdf_org.ssgproject.content_rule_rpm_verify_permissions" selected="false"/>
     <xccdf:select idref="xccdf_org.ssgproject.content_rule_security_patches_up_to_date" selected="false"/>
     <xccdf:select idref="xccdf_org.ssgproject.content_rule_rpm_verify_hashes" selected="false"/>
+    
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_partition_for_var_log_audit" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_partition_for_var_log" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_package_rsyslog_installed" selected="false"/>
+    <xccdf:select idref="xccdf_org.ssgproject.content_rule_service_rsyslog_enabled" selected="false"/>
   </xccdf:Profile>
 
   <!-- reference-quarkus-mvn -->
